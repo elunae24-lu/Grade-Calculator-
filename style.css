@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 90, 174);
+    text-align: center;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+   }
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#myInput {
+    width: 75px;
+    height: 35px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+}
+
+#myBtn {
+    width: 60%;
+    height: 35px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+#mtBtn:hover {
+    background-color: #011d03;
+    transition: 0.5s;
+
+
+}
+
+#myResult {
+margin-top: 20px;
+font-size: 24px;
+font-weight: bold;
+color: #333;
+}
+  
